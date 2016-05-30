@@ -1,6 +1,6 @@
 package com.btrco.gojava.mod04.shapes;
 
-public class Rectangle extends Shape
+public class Rectangle implements Shape
 {
 	
 	private float a;
@@ -10,7 +10,6 @@ public class Rectangle extends Shape
 	{
 		this.a = a;
 		this.b = b;
-		super.setType("rectangle");
 	}
 	
 	public float getA()
@@ -33,4 +32,9 @@ public class Rectangle extends Shape
 		this.b = b;
 	}
 	
+	@Override
+	public double calculateArea()
+	{
+		return this.a * this.b;
+	}
 }

@@ -3,20 +3,14 @@ package com.btrco.gojava.mod04.temperature;
 public class TemperatureConverter
 {
 	
-	public static void main(String[] args)
+	public static double convertFarengeitToCelsium(double farengeitDegree)
 	{
-		System.out.println(convertCelsiumToFarengeit(0));
-		System.out.println(convertFarengeitToCelsium(32));
+		return ((farengeitDegree - 32) * (5 / 9));
 	}
 	
-	private static double convertFarengeitToCelsium(double farengeitDegree)
+	public static double convertCelsiumToFarengeit(double celsiumDegree)
 	{
-		return ((farengeitDegree - 32) * (5/9));
-	}
-	
-	private static double convertCelsiumToFarengeit(double celsiumDegree)
-	{
-		return ((9/5) * celsiumDegree + 32);
+		return ((9 / 5) * celsiumDegree + 32);
 	}
 	
 }

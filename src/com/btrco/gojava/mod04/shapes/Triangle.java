@@ -1,6 +1,6 @@
 package com.btrco.gojava.mod04.shapes;
 
-public class Triangle extends Shape
+public class Triangle implements Shape
 {
 	
 	private float a;
@@ -10,7 +10,6 @@ public class Triangle extends Shape
 	{
 		this.a = a;
 		this.h = h;
-		super.setType("triangle");
 	}
 	
 	public float getA()
@@ -33,4 +32,9 @@ public class Triangle extends Shape
 		this.h = h;
 	}
 	
+	@Override
+	public double calculateArea()
+	{
+		return (this.a * this.h) / 2;
+	}
 }

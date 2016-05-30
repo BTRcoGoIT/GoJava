@@ -1,13 +1,13 @@
 package com.btrco.gojava.mod04.shapes;
 
-public class Circle extends Shape
+public class Circle implements Shape
 {
+	public static final double PI = 3.14;
 	private float r;
 	
 	public Circle(float r)
 	{
 		this.r = r;
-		super.setType("circle");
 	}
 	
 	public float getR()
@@ -20,4 +20,9 @@ public class Circle extends Shape
 		this.r = r;
 	}
 	
+	@Override
+	public double calculateArea()
+	{
+		return this.r * PI;
+	}
 }

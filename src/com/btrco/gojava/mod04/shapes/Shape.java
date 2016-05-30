@@ -1,17 +1,8 @@
 package com.btrco.gojava.mod04.shapes;
 
-public class Shape
+public interface Shape
 {
 	
-	private String type;
+	public double calculateArea();
 	
-	public String getType()
-	{
-		return type;
-	}
-	
-	public void setType(String type)
-	{
-		this.type = type;
-	}
 }
