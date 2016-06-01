@@ -5,7 +5,7 @@ public class ArraysUtil
 	
 	public static int findSmallestElement(int[] array)
 	{
-		int min = 0;
+		int min = array[0];
 		
 		for (int i = 0; i < array.length; i++)
 		{
@@ -21,7 +21,7 @@ public class ArraysUtil
 	
 	public static int findBiggestElement(int[] array)
 	{
-		int max = 0;
+		int max = array[0];
 		
 		for (int i = 0; i < array.length; i++)
 		{
