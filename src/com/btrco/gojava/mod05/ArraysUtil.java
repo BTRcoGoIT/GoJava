@@ -16,7 +16,7 @@ public class ArraysUtil
 		}
 		
 		return min;
-				
+		
 	}
 	
 	public static int findBiggestElement(int[] array)
@@ -34,7 +34,7 @@ public class ArraysUtil
 		return max;
 		
 	}
-		
+	
 	public static int[] bubleSortAscending(int[] array)
 	{
 		int[] sortedArray = array;
@@ -45,14 +45,14 @@ public class ArraysUtil
 				if (sortedArray[j] > sortedArray[j + 1])
 				{
 					int temp = sortedArray[j];
-					sortedArray[j] = sortedArray[j+1];
-					sortedArray[j+1] = temp;
+					sortedArray[j] = sortedArray[j + 1];
+					sortedArray[j + 1] = temp;
 				}
 			}
 			
 		}
 		return sortedArray;
-	}	
+	}
 	
 	public static int[] bubleSortAscendingLikeAGod(int[] array)
 	{
@@ -63,8 +63,8 @@ public class ArraysUtil
 			{
 				if (sortedArray[j] > sortedArray[j + 1])
 				{
-					sortedArray[j] += sortedArray[j+1];
-					sortedArray[j+1] = sortedArray[j] - sortedArray[j + 1];
+					sortedArray[j] += sortedArray[j + 1];
+					sortedArray[j + 1] = sortedArray[j] - sortedArray[j + 1];
 					sortedArray[j] = sortedArray[j] - sortedArray[j + 1];
 				}
 			}
@@ -83,8 +83,8 @@ public class ArraysUtil
 				if (sortedArray[j] < sortedArray[j + 1])
 				{
 					int temp = sortedArray[j];
-					sortedArray[j] = sortedArray[j+1];
-					sortedArray[j+1] = temp;
+					sortedArray[j] = sortedArray[j + 1];
+					sortedArray[j + 1] = temp;
 				}
 			}
 			
