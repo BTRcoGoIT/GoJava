@@ -5,6 +5,9 @@ public class Test
 	
 	public static void main(String[] args)
 	{
+		/**
+		 * Hard code + Magic numbers
+		 */
 		Point point1 = null/*new Point(5, 5)*/;
 		Point point2 = new Point(10, 10);
 		try

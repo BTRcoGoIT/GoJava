@@ -19,6 +19,9 @@ public class Triangle implements Shape
 	
 	public void setA(float a)
 	{
+		/**
+		 * Magic number
+		 */
 		if (a <= 0)
 		{
 			throw new IllegalArgumentException("Side can not be 0 or negative");
@@ -36,6 +39,9 @@ public class Triangle implements Shape
 	
 	public void setH(float h)
 	{
+		/**
+		 * Magic number
+		 */
 		if (h <= 0)
 		{
 			throw new IllegalArgumentException("Hight can not be 0 or negative");
@@ -49,6 +55,9 @@ public class Triangle implements Shape
 	@Override
 	public double calculateArea()
 	{
+		/**
+		 * Magic numbers
+		 */
 		if (this.h <= 0 || this.a <= 0)
 		{
 			throw new IllegalArgumentException("Hight can not be 0 or negative");

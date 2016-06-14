@@ -2,7 +2,10 @@ package com.btrco.gojava.mod03.musicStore;
 
 public class Instrument
 {
-	
+	/**
+	 * Тут в принципе можно сказать, что Boat anchor анти плагин,
+	 * но не думаю, все таки это почти POJO =) 
+	 */
 	private String name;
 	private String model;
 	private String country;

@@ -6,6 +6,9 @@ public class ShapeAreaCalculator
 	
 	public static void main(String[] args)
 	{
+		/**
+		 * Hard code + Magic numbers
+		 */
 		Shape circle = new Circle(5);
 		System.out.println(circle.calculateArea());
 		

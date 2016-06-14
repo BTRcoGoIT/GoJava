@@ -15,6 +15,9 @@ public class DistanceCalculator
 			distance = -1;/*Math.sqrt(Math.pow((point1.getX() - point2.getX()), 2) + Math.pow((point1.getY() - point2.getY()), 2))*/;
 		}
 		
+		/**
+		 * Magic number
+		 */
 		if (distance < 0)
 		{
 			throw new IllegalArgumentException("The distance can't be negative");

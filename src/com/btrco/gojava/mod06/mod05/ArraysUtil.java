@@ -5,7 +5,9 @@ public class ArraysUtil
 	
 	public static int findSmallestElement(int[] array)
 	{
-		
+		/**
+		 * Magic numbers
+		 */
 		if (array.length == 0)
 		{
 			throw new ArrayIndexOutOfBoundsException("Array is empty or it's size = 0");
@@ -26,8 +28,11 @@ public class ArraysUtil
 	}
 	
 	public static int findBiggestElement(int[] array)
-	{		
+	{
 		
+		/**
+		 * Magic numbers
+		 */
 		if (array.length == 0)
 		{
 			throw new ArrayIndexOutOfBoundsException("Array is empty or it's size = 0");
@@ -48,6 +53,9 @@ public class ArraysUtil
 	
 	public static int[] bubleSortAscending(int[] array)
 	{
+		/**
+		 * Magic numbers
+		 */
 		if (array.length == 0)
 		{
 			throw new ArrayIndexOutOfBoundsException("Array is empty or it's size = 0");
@@ -71,6 +79,9 @@ public class ArraysUtil
 	
 	public static int[] bubleSortAscendingLikeAGod(int[] array)
 	{
+		/**
+		 * Magic numbers
+		 */
 		if (array.length == 0)
 		{
 			throw new ArrayIndexOutOfBoundsException("Array is empty or it's size = 0");
@@ -94,6 +105,9 @@ public class ArraysUtil
 	
 	public static int[] bubleSortDescending(int[] array)
 	{
+		/**
+		 * Magic numbers
+		 */
 		if (array.length == 0)
 		{
 			throw new ArrayIndexOutOfBoundsException("Array is empty or it's size = 0");

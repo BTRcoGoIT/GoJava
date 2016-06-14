@@ -17,6 +17,10 @@ public class FlowerBouquet
 		this.flowers = flowers;
 	}
 	
+	/**
+	 * Тут в принципе можно сказать, что Boat anchor анти плагин,
+	 * но не думаю, все таки это почти POJO =) 
+	 */
 	public void addFlower(Flower flower)
 	{
 		this.flowers.add(flower);

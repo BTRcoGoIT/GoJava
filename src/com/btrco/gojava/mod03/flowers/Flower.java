@@ -3,6 +3,10 @@ package com.btrco.gojava.mod03.flowers;
 public class Flower
 {
 	
+	/**
+	 * Тут в принципе можно сказать, что Boat anchor анти плагин,
+	 * но не думаю, все таки это почти POJO =) 
+	 */
 	private String name;
 	private String color;
 	private boolean isBloom;

@@ -11,6 +11,9 @@ public class Runner
 {
 	public static void main(String[] args)
 	{
+		/**
+		 * Hard code + Magic numbers
+		 */
 		Store musicStore = new Store();
 		for (int i = 0; i < 10; i++)
 		{

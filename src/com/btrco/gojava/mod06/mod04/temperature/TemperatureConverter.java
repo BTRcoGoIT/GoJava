@@ -5,6 +5,9 @@ public class TemperatureConverter
 	
 	public static double convertFarengeitToCelsium(double farengeitDegree)
 	{
+		/**
+		 * Magic numbers
+		 */
 		double celsium = ((farengeitDegree - 32) / 1.8);
 		if (celsium < -273.15)
 		{
@@ -18,6 +21,9 @@ public class TemperatureConverter
 	
 	public static double convertCelsiumToFarengeit(double celsiumDegree)
 	{
+		/**
+		 * Magic numbers
+		 */
 		double farengeit = (1.8 * celsiumDegree) + 32;
 		if (farengeit < -459.67)
 		{

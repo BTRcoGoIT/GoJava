@@ -5,6 +5,9 @@ public class Test
 	
 	public static void main(String[] args)
 	{
+		/**
+		 * Hard code
+		 */
 		try
 		{
 			System.out.println(TemperatureConverter.convertCelsiumToFarengeit(-273.16));

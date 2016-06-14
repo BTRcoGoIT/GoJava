@@ -17,6 +17,9 @@ public class Circle implements Shape
 	
 	public void setR(float r)
 	{
+		/**
+		 * Magic number
+		 */
 		if (r <= 0)
 		{
 			throw new IllegalArgumentException("Radius can not be 0 or negative");
@@ -30,6 +33,9 @@ public class Circle implements Shape
 	@Override
 	public double calculateArea()
 	{
+		/**
+		 * Magic number
+		 */
 		if (this.r <= 0)
 		{
 			throw new IllegalArgumentException("Radius can not be 0 or negative");

@@ -19,6 +19,9 @@ public class Rectangle implements Shape
 	
 	public void setA(float a)
 	{
+		/**
+		 * Magic number
+		 */
 		if (a <= 0)
 		{
 			throw new IllegalArgumentException("Side can not be 0 or negative");
@@ -37,6 +40,9 @@ public class Rectangle implements Shape
 	
 	public void setB(float b)
 	{
+		/**
+		 * Magic number
+		 */
 		if (b <= 0)
 		{
 			throw new IllegalArgumentException("Side can not be 0 or negative");
@@ -50,6 +56,9 @@ public class Rectangle implements Shape
 	@Override
 	public double calculateArea()
 	{
+		/**
+		 * Magic numbers
+		 */
 		if (this.a <= 0 || this.b <= 0)
 		{
 			throw new IllegalArgumentException("Sides can not be 0 or negative");

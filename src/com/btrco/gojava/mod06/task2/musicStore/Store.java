@@ -39,6 +39,9 @@ public class Store
 	
 	public boolean addInstrumentToShop(Instrument instrument)
 	{
+		/**
+		 * Magic number
+		 */
 		if (instrumentsInShop.get(instrument.getName()) == null)
 		{
 			instrumentsInShop.put(instrument.getName(), 0);

@@ -5,6 +5,10 @@ import java.util.List;
 public class Folder
 {
 	
+	/**
+	 * Тут в принципе можно сказать, что Boat anchor анти плагин,
+	 * но не думаю, все таки это почти POJO =) 
+	 */
 	List<File> fileList;
 	List<Folder> folderListr;
 	
