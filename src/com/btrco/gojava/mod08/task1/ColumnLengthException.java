@@ -1,4 +1,4 @@
-package com.btrco.gojava.mod08;
+package com.btrco.gojava.mod08.task1;
 
 public class ColumnLengthException extends Exception
 {

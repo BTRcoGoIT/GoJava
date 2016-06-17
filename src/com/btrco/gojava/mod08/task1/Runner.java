@@ -1,4 +1,4 @@
-package com.btrco.gojava.mod08;
+package com.btrco.gojava.mod08.task1;
 
 import com.btrco.gojava.mod08.fileSystem.*;
 
@@ -47,7 +47,11 @@ public class Runner
 			}
 		}
 		
+		
 		CollectionHelper.printCollectionAsTable(files);
+		files = CollectionHelper.sortFiles(files);
+		CollectionHelper.printCollectionAsTable(files);
+		
 		
 	}
 	

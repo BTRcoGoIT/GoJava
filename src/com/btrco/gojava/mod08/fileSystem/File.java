@@ -1,8 +1,8 @@
 package com.btrco.gojava.mod08.fileSystem;
 
-import com.btrco.gojava.mod08.ColumnLengthException;
+import com.btrco.gojava.mod08.task1.ColumnLengthException;
 
-public class File
+public class File implements Comparable<File>
 {
 	
 	public static final String TEXT_FILE_TYPE = ".txt";
@@ -61,5 +61,27 @@ public class File
 	public String getDate()
 	{
 		return date;
+	}
+	
+	@Override
+	public int hashCode()
+	{
+		return super.hashCode();
+	}
+	
+	@Override
+	public boolean equals(Object obj)
+	{
+		return super.equals(obj);
+	}
+	
+	@Override
+	public int compareTo(File file)
+	{
+		return this.name.compareTo(file.getName()) + 
+				this.type.compareTo(file.getType()) +
+				this.folder.compareTo(file.getFolder()) +
+				this.date.compareTo(file.getDate()) +
+				Integer.compare(this.size, file.getSize());
 	}
 }

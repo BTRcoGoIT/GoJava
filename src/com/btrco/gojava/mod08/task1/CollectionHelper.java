@@ -1,6 +1,7 @@
-package com.btrco.gojava.mod08;
+package com.btrco.gojava.mod08.task1;
 
-import java.util.ArrayList;
+import com.btrco.gojava.mod08.fileSystem.File;
+
 import java.util.List;
 
 public class CollectionHelper
@@ -166,5 +167,27 @@ public class CollectionHelper
 			}
 		}
 	}*/
+	
+	/**
+	 * Second task
+	 * @param files list to sort
+	 * @return sorted list of files
+	 */
+	public static List<File> sortFiles(List<File> files)
+	{
+		for (int i = 0; i < files.size() - 1; i++)
+		{
+			for (int j = 0; j < files.size() - 1; j++)
+			{
+				if (files.get(j).compareTo(files.get(j + 1)) > 0)
+				{
+					File buffer = files.get(j);
+					files.set(j, files.get(j + 1));
+					files.set(j + 1, buffer);
+				}
+			}
+		}
+		return files;
+	}
 	
 }

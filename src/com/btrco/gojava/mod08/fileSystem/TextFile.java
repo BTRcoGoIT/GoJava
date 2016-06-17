@@ -1,6 +1,6 @@
 package com.btrco.gojava.mod08.fileSystem;
 
-import com.btrco.gojava.mod08.ColumnLengthException;
+import com.btrco.gojava.mod08.task1.ColumnLengthException;
 
 public class TextFile extends File
 {
